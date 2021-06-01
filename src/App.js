@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './hydra-logo.png';
 import './App.css';
 
 function App() {
@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          It&apos;s dangerous to go alone, keep your wallets with us 
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://jacks.media"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          By Jacks.Media
         </a>
       </header>
     </div>
