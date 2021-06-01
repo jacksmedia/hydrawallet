@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Stint Ultra Condensed', cursive;
 }
 
 .App-logo {
@@ -23,11 +24,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+h1, h2, h3 {
+  font-family: 'Fredericka the Great', cursive;
+}
 
 .App-link {
   color: #7B002C;
 }
-
 @keyframes App-logo-growshrink {
   0% {
     transform: scale(1.0);

@@ -5,10 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>E Pluribus Unum</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h2>
           It&apos;s dangerous to go alone, keep your wallets with us 
-        </p>
+        </h2>
         <a
           className="App-link"
           href="https://jacks.media"
