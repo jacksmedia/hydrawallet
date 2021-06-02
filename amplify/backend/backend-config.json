@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "hydrawallet5403b41e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

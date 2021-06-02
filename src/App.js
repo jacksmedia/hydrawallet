@@ -1,5 +1,6 @@
 import logo from './hydra-logo.png';
 import './App.css';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
           By Jacks.Media
         </a>
       </header>
+       <AmplifySignOut />
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
