@@ -1,0 +1,6 @@
+type Wallet @model {
+  id: ID!
+  address: String!
+  memo: String
+  crypto: String!
+}
